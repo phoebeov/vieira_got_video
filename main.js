@@ -6,7 +6,7 @@ String.prototype.capIt = function(){return this.replace(this.charAt(), this.char
 
 //variable stack goes here
 
-var houseName = ['Stark','Baratheon', 'Lannister', 'Tully', 'Greyjoy', 'Arryn', 'Frey', 'Targaryen', 'Tyrell'];
+
 let sigils = document.querySelectorAll('.sigilContainer'),
 lightbox = document.querySelector('.lightbox'),
 closeLightboxButton = lightbox.querySelector('.close-lightbox'),
@@ -15,7 +15,7 @@ vidControls = document.querySelector('.controls'),
 imageBanner = document.querySelector('#houseImages');
 
 
-
+var houseName = ["Stark","Baratheon", "Lannister", "Tully", "Greyjoy", "Arryn", "Frey", "Targaryen", "Tyrell"];
 var houseInfo = [
 "House Stark of Winterfell is a Great House of Westeros, ruling over the vast region known as the North from their seat in Winterfell. It is one of the oldest lines of Westerosi nobility by far, claiming a line of descent stretching back over eight thousand years. Before the Targaryen conquest, as well as during the War of the Five Kings and Daenerys Targaryen's invasion of Westeros, the leaders of House Stark ruled over the region as the Kings in the North.",
 
@@ -97,3 +97,4 @@ vidControls.addEventListener('click', pausePlay);
 vidControls.addEventListener('click', volOnOff);
 
 })();
+
