@@ -40,6 +40,10 @@ let houseName = this.className.split(' ')[1].capIt();
 
 document.querySelector('h1').textContent = `House ${houseName}`;
 //debugger
+
+let houseInfo = this.className.split(' ')[1].capIt();
+document.querySelector('p').textContent = `${houseInfo}`;
+
 lightbox.classList.add('show-lightbox');
 //make it play
 vidPlayer.src =`video/House-${houseName}.${vidPlayer.currentSrc.split('.')[1]}`;
@@ -58,8 +62,6 @@ let moveIt = offset * 600 + "px";
 
 imageBanner.style.right = moveIt;
 
-let houseInfo = this.className.split(' ')[1].capIt();
-document.querySelector('p').textContent = `${houseInfo}`
 }
 
 
