@@ -15,11 +15,14 @@ body { background-image:url(../images/grungeBG.jpg);
 	background-color:#000000; font-size:16px; }
 
 
-  .hidden
-  {
-    display: none;
-  }
 
+p
+{
+  font-family: 'GOT_font';
+	color:white;
+	margin-top:30px;
+	font-size:10px;
+}
 h1 {
 	font-family: 'GOT_font';
 	color:white;
@@ -141,7 +144,7 @@ main {
 video {
 	width: 80%;
 	margin-top: 10%;
-	border: thin solid #949393;
+	border: thick solid #ddd;
 }
 
 
