@@ -12,6 +12,7 @@ lightbox = document.querySelector('.lightbox'),
 closeLightboxButton = lightbox.querySelector('.close-lightbox'),
 vidPlayer = document.querySelector('video'),
 vidControls = document.querySelector('.controls'),
+p = document.querySelector('p'),
 imageBanner = document.querySelector('#houseImages');
 
 
@@ -57,7 +58,8 @@ let moveIt = offset * 600 + "px";
 
 imageBanner.style.right = moveIt;
 
-p.textContent = houseInfo[offset]
+let houseInfo = this.className.split(' ')[1].capIt();
+document.querySelector('p').textContent = `${houseInfo}`
 }
 
 
